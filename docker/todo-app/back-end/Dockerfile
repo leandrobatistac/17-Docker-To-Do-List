@@ -7,5 +7,4 @@ ADD node_modules.tar.gz ./
 WORKDIR /app
 
 COPY . .
-
 ENTRYPOINT ['npm', 'start']
